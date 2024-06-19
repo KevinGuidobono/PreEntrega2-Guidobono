@@ -63,7 +63,7 @@ li {
 
 /* *********** ANIMACION SUBRAYADO */
 
-.navbar a::before {
+.navbarme a::before {
       content: '';
       position: absolute;
       top: 100% ;
@@ -76,7 +76,7 @@ li {
       z-index: -1;
 }
 
-.navbar a:hover::before {
+.navbarme a:hover::before {
       width: 100%;
 }
 
@@ -424,7 +424,7 @@ li {
             display: block ;
       } 
 
-      .navbar {
+      .navbarme {
             position: absolute;
             top: 102%;
             left: 0%;
@@ -438,11 +438,11 @@ li {
             z-index: 0;
       }
 
-      #check:checked~.navbar {
+      #check:checked~.navbarme {
             height: 15.7rem;
       }
       
-      .navbar .menu {
+      .navbarme .menu {
             display: flex;
             flex-direction: column;
             font-size: 1.15rem;
@@ -454,12 +454,12 @@ li {
       }
 
 
-      #check:checked~.navbar a {
+      #check:checked~.navbarme a {
             transform: translateY(100);
 
       }
       
-      .navbar a::before {
+      .navbarme a::before {
             display: none;
       }
       
