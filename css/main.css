@@ -120,7 +120,7 @@ li {
       color: grey;  
 }
 
-.btn {
+.btnme {
       margin-bottom: 20px;
       font-size: 1rem;
       font-weight: 500;
@@ -135,7 +135,7 @@ li {
       
 }
 
-.btn:hover {
+.btnme:hover {
       background: hwb(86 11% 49%);
       border: 2px solid #9aeb30;
 }
@@ -330,24 +330,32 @@ li {
 }
 
 /* BLOG */
+.card-text {
+      font-size: 1rem;
+      color: black;
+      margin-bottom:0.5rem;
+}
 
 .card img {
       height: 200px;
       object-fit: cover;
 }
-/* 
-.box {
-      width: 100%;
-      height: 500px;
-      display: flex;
-      justify-content: space-between;
-      align-items: start;
-      flex-direction: column;
 
-} */
+.card h2 {
+      font-size: 1.5rem;
+}
+ 
+.btn {
+      font-family: "Poppins", sans-serif;
+      font-size: 0.8rem;
+      background-color: #012030;
 
+}
 
-
+.btn:hover {
+      background-color: #9aeb30;
+      color: #012030;
+}
 
 /* ! Esto se cambio por bootstrap */
 /* .blog {
