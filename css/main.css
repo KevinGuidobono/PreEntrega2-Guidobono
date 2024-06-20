@@ -240,23 +240,25 @@ li {
 
 /* SAMPLE PACKS */
 
-/* ************************ HEADER */
-/* 
-.header {
-      position: fixed;
-      background-color: #012030;
-      width: 100%;
-      padding: 1.5rem 10%; 
-      background-color: transparent;
-      border-bottom: 2px solid #9aeb30;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      z-index: 1; 
-}  */
+.card-body h5 {
+      font-size: 1rem;  
+      color: #012030;
+}
 
+.buy {
+      text-decoration: none;
+      color: #9aeb30;
+      font-size: 0.8rem;
+}
 
-.packs-container {
+.sampleimg {
+      height: auto;
+}
+
+.card-sample {
+      width: auto;
+}
+/* .packs-container {
       padding: 2rem;
 }
 .packs {
@@ -282,11 +284,9 @@ li {
 .packsimg {
       max-width: 250px;
       
-}
+} */
 
-.buy {
-      color: #9aeb30;
-}
+
 
 /* COMUNIDAD */
 
@@ -337,7 +337,7 @@ li {
       margin-bottom:0.5rem;
 }
 
-.card img {
+.card blogimg {
       height: 200px;
       object-fit: cover;
 }
