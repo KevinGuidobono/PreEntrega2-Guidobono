@@ -2,11 +2,11 @@
       margin: 0;
       padding: 0;
       box-sizing: border-box;
-      font-family: "Poppins", sans-serif;
+      font-family: $fontPoppins;
       color: white;
 
       &::selection {
-            background-color: #012030;
-            color: #9aeb30;
+            background-color: $colorSecundario;
+            color: $colorMain;
       }
 }

@@ -1,0 +1,9 @@
+@import "./partials/variables";
+@import "./partials/reset";
+@import "./partials/header";
+
+body {
+      background-image: url(../img/background.png);
+      background-size: cover;
+      background-position: center;
+}
