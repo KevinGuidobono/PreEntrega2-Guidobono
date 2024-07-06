@@ -11,7 +11,7 @@
             gap: 2rem;
 
             h1 {
-                  font-family: "Archivo Black", sans-serif;
+                  font-family: $fontArchivo;
                   font-weight:600;
                   font-size: 8rem;
                   color: rgba(255, 255, 255, 0.46);
@@ -25,18 +25,18 @@
                   margin-bottom: 20px;
                   font-size: 1rem;
                   font-weight: 500;
-                  border: 2px solid #9aeb30;
-                  background-color: #9aeb30;
+                  border: 2px solid $colorMain;
+                  background-color: $colorMain;
                   text-decoration: none;
                   cursor: pointer;
                   border-radius: 10px;
                   padding: .7rem 2rem;
-                  color: #012030;
+                  color: $colorSecundario;
                   transition: 0.5s ease;
                   
                   &:hover {
                         background: hwb(86 11% 49%);
-                        border: 2px solid #9aeb30;
+                        border: 2px solid $colorMain;
                   }
             }
             
@@ -45,7 +45,7 @@
                   &:hover {
                         transition: 1s;
                   }
-                  
+
                   &:hover {
                         color: #fff;
                   }

@@ -75,6 +75,50 @@ header #check {
   display: none;
 }
 
+.hero .banner-text {
+  padding: auto;
+  position: relative;
+  display: flex;
+  min-height: calc(100vh - 224.8px);
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.hero .banner-text h1 {
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 600;
+  font-size: 8rem;
+  color: rgba(255, 255, 255, 0.46);
+}
+.hero .banner-text h2 {
+  color: grey;
+}
+.hero .banner-text .btnme {
+  margin-bottom: 20px;
+  font-size: 1rem;
+  font-weight: 500;
+  border: 2px solid #9aeb30;
+  background-color: #9aeb30;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 10px;
+  padding: 0.7rem 2rem;
+  color: #012030;
+  transition: 0.5s ease;
+}
+.hero .banner-text .btnme:hover {
+  background: hwb(86 11% 49%);
+  border: 2px solid #9aeb30;
+}
+.hero .banner-text .btn--textcolor:hover {
+  transition: 1s;
+}
+.hero .banner-text .btn--textcolor:hover {
+  color: #fff;
+}
+
 body {
   background-image: url(../img/background.png);
   background-size: cover;
