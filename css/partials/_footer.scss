@@ -1,0 +1,17 @@
+.footernav {
+      width: 100%;
+      display: flex;
+      border-top: 2px solid $colorMain;
+
+      .foot-icon {
+            padding: 1.5rem 0;
+            margin: auto;
+            text-decoration: none;
+            font-size: 2.5rem;
+            display: flex;
+            align-items: flex-start;
+            flex-direction: row;
+            justify-content: center;
+            gap: 2rem;
+      }
+}
