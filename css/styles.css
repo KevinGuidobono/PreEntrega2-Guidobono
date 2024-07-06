@@ -136,8 +136,135 @@ header #check {
   gap: 2rem;
 }
 
+.cursos-main {
+  background-image: url(../img/studiobackground.jpg);
+  min-height: calc(100vh - 112.8px);
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  padding: 5%;
+}
+.cursos-main .cursos-container {
+  padding: 2rem 1rem;
+  position: relative;
+  background-color: rgba(1, 32, 48, 0.4196078431);
+  border: 2px solid #9aeb30;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+.cursos-main .cursos-container .h1secciones {
+  text-align: center;
+  font-weight: 500;
+  font-size: 3rem;
+  color: white;
+}
+.cursos-main .cursos-container .tarjetas-container {
+  position: center;
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+.cursos-main .cursos-container .tarjetas-container .tarjetas {
+  position: relative;
+  max-width: 350px;
+  background-color: #012030;
+  border-radius: 5px;
+  margin: 1rem;
+}
+.cursos-main .cursos-container .tarjetas-container .tarjetas .img-tarjeta {
+  width: 100%;
+  height: 220px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.cursos-main .cursos-container .tarjetas-container .tarjetas .cardtext {
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+.cursos-main .cursos-container .tarjetas-container .tarjetas .cardtext .mas {
+  position: absolute;
+  bottom: 0.5rem;
+}
+.cursos-main .cursos-container .tarjetas-container .tarjetas a {
+  text-decoration: none;
+  color: #9aeb30;
+}
+
 body {
   background-image: url(../img/background.png);
   background-size: cover;
   background-position: center;
+}
+
+@media (max-width: 900px) {
+  .header {
+    padding: 1.5rem 5%;
+  }
+  .comunidad {
+    display: flex;
+    flex-flow: column-reverse nowrap;
+    gap: 2rem;
+  }
+  .bannerizq h1 {
+    font-size: 3rem;
+  }
+  .bannerizq p {
+    font-size: 1.5rem;
+  }
+  .cicle {
+    width: 300px;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 768px) {
+  .iconos {
+    display: inline-flex;
+  }
+  #check:checked ~ .iconos #open-menu {
+    display: none;
+  }
+  .iconos #close-menu {
+    display: none;
+  }
+  #check:checked ~ .iconos #close-menu {
+    display: block;
+  }
+  .navbarme {
+    position: absolute;
+    top: 102%;
+    left: 0%;
+    width: 100%;
+    height: 0;
+    background: rgba(1, 32, 48, 0.8);
+    -webkit-backdrop-filter: blur 50px;
+            backdrop-filter: blur 50px;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: 0.4s;
+    z-index: 0;
+  }
+  #check:checked ~ .navbarme {
+    height: 15.7rem;
+  }
+  .navbarme .menu {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.15rem;
+    margin: 1.5rem 0;
+    text-align: center;
+    justify-content: center;
+    transform: translateY(50);
+    transition: 0.4s ease;
+  }
+  #check:checked ~ .navbarme a {
+    transform: translateY(100);
+  }
+  .navbarme a::before {
+    display: none;
+  }
 }/*# sourceMappingURL=styles.css.map */
