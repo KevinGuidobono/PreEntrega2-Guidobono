@@ -1,3 +1,4 @@
+//! Tarjetas Curso //
 .cursos-main {
       background-image: url(../img/studiobackground.jpg);
       min-height: calc(100vh - 112.8px);
@@ -62,5 +63,57 @@
                   }
             }
 
+      }
+}
+//! Tarjetas Sample Packs // 
+
+.card-body h5 {
+      font-size: 1rem;  
+      color: #012030;
+}
+
+.buy {
+      text-decoration: none;
+      color: #9aeb30;
+      font-size: 0.8rem;
+}
+
+.sampleimg {
+      height: auto;
+}
+
+.card-sample {
+      width: auto;
+}
+
+//! Tarjetas Blog //
+
+.card {
+      .blogimg {
+            height: 200px;
+            object-fit: cover;
+      }
+
+      .card-body {
+            h2 {
+                  font-size: 1.5rem;
+            }
+
+            .card-text {
+                  font-size: 1rem;
+                  color: black;
+                  margin-bottom:0.5rem;
+            }
+             
+            .btn {
+                  font-family: "Poppins", sans-serif;
+                  font-size: 0.8rem;
+                  background-color: #012030;
+
+                  &:hover {
+                        background-color: #9aeb30;
+                        color: #012030;
+                  }
+            }              
       }
 }

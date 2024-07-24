@@ -1,16 +1,11 @@
 @import "./partials/variables";
 @import "./partials/reset";
 @import "./partials/header";
+@import "./partials/body";
 @import "./partials/hero";
 @import "./partials/footer";
-@import "./partials/tarjetasCurso";
-
-
-body {
-      background-image: url(../img/background.png);
-      background-size: cover;
-      background-position: center;
-}
+@import "./partials/tarjetas";
+@import "./partials/bannerComunidad";
 
 @media (max-width: 900px) {
 
@@ -24,13 +19,14 @@ body {
             gap: 2rem;
       }
 
-      .bannerizq h1{
-            font-size: 3rem;
-      }
-
-      .bannerizq p {
-            font-size: 1.5rem;
-      }
+      .bannerizq {
+            h1{
+                  font-size: 3rem;
+            }
+            p {
+                  font-size: 1.5rem;
+            }
+      } 
 
       .cicle {
             width: 300px;

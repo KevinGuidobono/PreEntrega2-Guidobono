@@ -1,0 +1,38 @@
+.comunidad {
+      background: linear-gradient(20deg,#9aeba3, #9aeb30);
+      width: 100%;
+      min-height:76vh;      
+      padding: 2rem;
+      display: flex;
+      flex-flow: row wrap-reverse;
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+      gap: 4rem;
+      font-size: 2rem;
+      font-weight: 400;
+      overflow: hidden;
+
+      .bannerizq {
+            width: 400px;
+            align-self: flex;
+
+            h1 {
+                  font-family: "Archivo Black", sans-serif;
+                  font-size: 4rem;
+                  color:#012030;
+            }
+            .btn-2 {
+                  background-color: #012030;
+                  color: #9aeb30;
+            }
+      }
+
+      .bannerder {
+            .cicle {
+                  width: 370px;
+                  margin-bottom: -50px;
+            }
+      }
+
+}

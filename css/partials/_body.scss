@@ -1,0 +1,6 @@
+// Como mi header y footer son transparentes, comparten de fondo el body, por eso cree este partials ya que no sabia donde dejar estos estilos //
+body {
+      background-image: url(../img/background.png);
+      background-size: cover;
+      background-position: center;
+}
